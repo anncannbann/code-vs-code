@@ -2,7 +2,6 @@ class Calculator:
     def add(self, x, y):
         return x + y
 
-
     def subtract(self, x, y):
         return x - y
 
@@ -17,3 +16,4 @@ if __name__ == "__main__":
     print("Example: 5 + 3 =", calc.add(5, 3))
     print("Example: 5 - 3 =", calc.subtract(5, 3))
     print("Example: 5 * 3 =", calc.multiply(5, 3))
+
